@@ -1,3 +1,5 @@
+Editor grafico e RGB ON!
+
 Compilare il tutto con Git Bash come da istruzioni di ZMK
 Una volta importato tutto sulla propria cartella Github si può personalizzare il layout su https://nickcoutsos.github.io/keymap-editor/
 Salvare le modifiche in basso a DX e premere il tasto azzurro.
