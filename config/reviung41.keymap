@@ -78,10 +78,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
- &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5           &kp NUMBER_6  &kp NUMBER_7    &kp N8  &kp NUMBER_9   &kp NUMBER_0       &kp PLUS
- &trans     &kp MINUS   &kp KP_PLUS      &kp LBRC      &kp RBRC      &kp PIPE               &kp LEFT     &kp PG_UP    &kp UP     &kp PG_DN  &kp SEMICOLON  &kp BACKSPACE
- &trans       &kp ESC      &kp LGUI      &kp LALT      &kp CLCK       &kp DQT               &kp HOME      &kp LEFT  &kp DOWN     &kp RIGHT      &kp MINUS  &mt RSHFT RET
-                                           &trans        &trans                &kp RET                       &mo 3    &trans
+   &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5           &kp NUMBER_6  &kp NUMBER_7    &kp N8  &kp NUMBER_9   &kp NUMBER_0       &kp PLUS
+ &kp CAPS     &kp MINUS   &kp KP_PLUS      &kp LBRC      &kp RBRC      &kp PIPE               &kp LEFT     &kp PG_UP    &kp UP     &kp PG_DN  &kp SEMICOLON  &kp BACKSPACE
+   &trans       &kp ESC      &kp LGUI      &kp LALT      &kp CLCK       &kp DQT               &kp HOME      &kp LEFT  &kp DOWN     &kp RIGHT      &kp MINUS  &mt RSHFT RET
+                                             &trans        &trans                &kp RET                       &mo 3    &trans
             >;
         };
 
@@ -93,10 +93,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-    &kp F1     &kp F2           &kp F3           &kp F4                            &kp F5                           &kp F6                     &kp F7           &kp F8           &kp F9  &kp F10  &kp F11        &kp F12
- &kp LCTRL  &kp MINUS  &rgb_ug RGB_EFR         &kp LBKT                          &kp RBKT                         &kp BSLH            &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI   &kp F4   &kp F5  &kp BACKSPACE
-    &trans    &kp ESC  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(201,93,47)  &rgb_ug RGB_COLOR_HSB(45,99,49)            &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &kp F10  &kp F11        &kp F12
-                                                 &trans                             &mo 3                                   &kp BSPC                            &trans           &trans
+    &kp F1     &kp F2           &kp F3           &kp F4                            &kp F5                            &kp F6                     &kp F7           &kp F8           &kp F9  &kp F10  &kp F11        &kp F12
+ &kp LCTRL  &kp MINUS  &rgb_ug RGB_EFR         &kp LBKT                          &kp RBKT                          &kp BSLH            &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_SPI   &kp F4   &kp F5  &kp BACKSPACE
+    &trans    &kp ESC  &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(201,93,47)  &rgb_ug RGB_COLOR_HSB(285,99,49)            &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_SPD  &kp F10  &kp F11        &kp F12
+                                                 &trans                             &mo 3                                    &kp BSPC                            &trans           &trans
             >;
         };
 
